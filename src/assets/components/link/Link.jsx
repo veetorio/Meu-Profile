@@ -7,6 +7,7 @@ const LiStyled = styled.div`
     display: flex;
     align-items: center;
     justify-content: center;
+    transition:.5s;
 
 
 
@@ -30,7 +31,10 @@ const LiStyled = styled.div`
         bottom: 0;
         transform: bottom left;
         transform: scaleX(1);
-
+    }
+    &:hover{
+        font-size:16px;
+        background:242424;
     }
 
 

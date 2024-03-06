@@ -1,5 +1,6 @@
 import styled from "styled-components"
 import Header from "./assets/components/header/Header";
+import SpaceSection from "./assets/components/Section/SpaceSection";
 
 
 const BodyStyle = styled.div`
@@ -15,6 +16,7 @@ function App() {
   return (
     <BodyStyle>
       <Header/>
+      <SpaceSection/>
 
 
 

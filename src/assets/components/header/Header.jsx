@@ -4,12 +4,13 @@ import Link from "../link/Link";
 
 
 const HeaderStyle = styled.header`
+    position: fixed;
+    display: flex;
     height: 14.842%;
     width: 100%;
-    display: flex;
     box-shadow: 0 4px 25px black;
-    position: fixed;
-    background:222222;
+    background: #222222;
+
 
 
     &::after{
@@ -17,7 +18,6 @@ const HeaderStyle = styled.header`
         width: 100%;
         height: .5%;
         background:#6554D1;
-        box-shadow:5px 5px 15px black;
         position: absolute;
         bottom: 0;
         animation: load 5s ease-in-out;
@@ -50,6 +50,12 @@ const NavComponent = styled.nav`
     justify-content: flex-end;
     gap: 10%;
     padding:0 40px;
+
+
+    a{
+        color: white;
+        text-decoration: none;
+    }
 `
 
 function Header(links){
